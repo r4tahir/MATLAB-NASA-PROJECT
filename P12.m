@@ -3,7 +3,7 @@
 % Step 1
 
 % import data with headers X,Y,Z  (position) and X1,Y1,Z1 (velocity)
-parsedData = readtable('data');
+parsedData = readtable('mainData');
 sizeOfData = size(parsedData);
 
 angleArray = zeros(sizeOfData(1),1);
